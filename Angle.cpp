@@ -14,7 +14,7 @@ int main(){               // You have to create the main function
     else if (angolo > 90 && angolo <= 180){
         cout << "Angle of type 1";
     }
-    else if (angolo > 180 && angolo <= 270){
+    else if (angolo > 180 && angolo <= 270){ // Plus it classifies the angles in a wrong way
         cout << "Angle of type 2";
     }
     else if (angolo > 270 && angolo <= 360){
