@@ -8,11 +8,11 @@ using namespace std;
 int main(){               // You have to create the main function
     int a, b, c, d;
     char op;
-    cout << "Inserisci l'operatore (+, -, *, /): ";  // And then the AI will create all from line 9 to line 37
+    cout << "Insert the operator (+, -, *, /): ";  // And then the AI will create all from line 9 to line 37
     cin >> op;
-    cout << "Inserisci il primo numero: ";
+    cout << "Enter the first number: ";
     cin >> a;
-    cout << "Inserisci il secondo numero: ";
+    cout << "Enter the second number: ";
     cin >> b;
 
     switch (op)
@@ -30,9 +30,9 @@ int main(){               // You have to create the main function
         c = a / b;
         break;
     default:
-        cout << "Operatore non valido";
+        cout << "Operator not valid";
         break;
     }
-    cout << "Il risultato e' " << c << endl;
+    cout << "The Result is: " << c << endl;
     system("PAUSE");                     // A little problem, he will replace the system("PAUSE") with the Return 0, causing the script to terminate at the end of execution.
 }
